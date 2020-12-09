@@ -5,4 +5,8 @@
    ```sh
    echo $SHELL
    ```
+4. Install oh-my-zsh
+   ```sh
+   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   ```
 
