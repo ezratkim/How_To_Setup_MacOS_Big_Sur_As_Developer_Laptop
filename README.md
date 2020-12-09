@@ -30,3 +30,20 @@
    ```sh
    brew update && brew upgrade && brew cask upgrade && brew cleanup
    ```
+11. Edit .profile and add the following to set the default editor to vscode
+   ```sh
+   export EDITOR="code -w"
+   ```
+12. Install archey
+   ```sh
+   brew install archey
+   ```
+13. Edit .profile and add the following
+   ```sh
+   archey -o
+   ```
+14. Install vscode
+   ```sh
+   brew install visual-studio-code
+   ```
+
