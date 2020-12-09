@@ -26,4 +26,7 @@
    ```sh
    export PATH=$HOME/bin:$HOME/homebrew/bin:$PATH
    ```
-
+10. Update homebrew
+   ```sh
+   brew update && brew upgrade && brew cask upgrade && brew cleanup
+   ```
