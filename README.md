@@ -9,4 +9,21 @@
    ```sh
    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
    ```
+5. Install homebrew
+   ```sh
+   mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+   ```
+6. Go to https://github.com/romkatv/powerlevel10k#manual and follow the README to install powerlevel10k
+7. Edit ~/.zshrc and add the following line to the top of the file
+   ```sh
+   source $HOME/.profile
+   ```
+8. Create .profile in your home directory
+   ```sh
+   vim ~/.profile
+   ```
+9. Edit .profile and add the following
+   ```sh
+   export PATH=$HOME/bin:$HOME/homebrew/bin:$PATH
+   ```
 
