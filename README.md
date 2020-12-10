@@ -50,7 +50,8 @@
    a. Open Visual Studio Code (VSCode)
    b. On the left hand toolbar, click on the marketplace and search for GitLens
    c. Click Install
-16. Install pyenv
+16. Install anaconda
+17. Install pyenv
    ```sh
    brew install pyenv
    ```
