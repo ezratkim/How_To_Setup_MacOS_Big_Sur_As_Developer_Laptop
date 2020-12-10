@@ -46,4 +46,11 @@
    ```sh
    brew install visual-studio-code
    ```
-
+15. Install GitLens on VSCode
+   a. Open Visual Studio Code (VSCode)
+   b. On the left hand toolbar, click on the marketplace and search for GitLens
+   c. Click Install
+16. Install pyenv
+   ```sh
+   brew install pyenv
+   ```
